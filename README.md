@@ -1,230 +1,208 @@
-index.html
+idex.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nike Shoes</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nike - The Swoosh Story</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <h1>Nike Shoes</h1>
-            <nav>
-                <ul>
-                    <li><a href="#history">History</a></li>
-                    <li><a href="#mens-shoes">Men's Shoes</a></li>
-                    <li><a href="#womens-shoes">Women's Shoes</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_Nike.svg" alt="Nike Logo">
+            </div>
+            <ul>
+                <li><a href="#history">History</a></li>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="history">
-        <div class="container">
-            <h2>The History of Nike</h2>
-            <p>
-                Nike, Inc. was founded in 1964 by Bill Bowerman and Phil Knight. The company was originally named Blue Ribbon Sports and later rebranded as Nike, after the Greek goddess of victory. Nike has since become a global leader in athletic footwear, apparel, and equipment.
-            </p>
-            <p>
-                Nike is known for its innovative designs and powerful marketing strategies. Over the years, it has signed endorsement deals with some of the biggest names in sports, including Michael Jordan, LeBron James, and Serena Williams.
-            </p>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Nike</h1>
+            <p>Innovation and Performance since 1964</p>
         </div>
     </section>
 
-    <section id="mens-shoes">
-        <div class="container">
-            <h2>Men's Nike Shoes</h2>
-            <div class="shoe-category">
-                <div class="shoe-item">
-                    <h3>Air Jordan 1</h3>
-                    <p>The iconic Air Jordan 1, launched in 1985, continues to be a popular model among sneakerheads.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="shoe-item">
-                    <h3>Air Max 90</h3>
-                    <p>Known for its comfort and style, the Air Max 90 remains a favorite among athletes and casual wearers.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="shoe-item">
-                    <h3>Flyknit Racer</h3>
-                    <p>A lightweight, performance-driven shoe perfect for runners and sneaker enthusiasts alike.</p>
-                    <a href="#">Learn More</a>
-                </div>
+    <section id="history" class="section">
+        <h2>The History of Nike</h2>
+        <p>Nike was founded by Bill Bowerman and Phil Knight in 1964. Originally known as Blue Ribbon Sports, the company rebranded to Nike in 1971...</p>
+        <p>From track shoes to basketball sneakers, Nike revolutionized sportswear with groundbreaking technology like Air Max, Flyknit, and the Swoosh design.</p>
+    </section>
+
+    <section id="shoes" class="section">
+        <h2>Popular Nike Shoes</h2>
+        <div class="shoe-list">
+            <div class="shoe">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/c9b1b8d5-07c3-4737-9251-b18f9b8b2786/air-max-90-mens-shoes-qzrZc9.jpg" alt="Nike Air Max 90">
+                <h3>Air Max 90</h3>
+                <p>The Air Max 90 is a true icon of sneaker culture.</p>
+            </div>
+            <div class="shoe">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/7edc27a5-67cf-41fe-b1fc-432b3a63f7f2/air-force-1-07-mens-shoes-LKbxHv.jpg" alt="Nike Air Force 1">
+                <h3>Air Force 1</h3>
+                <p>The classic Air Force 1, a staple of streetwear and performance.</p>
+            </div>
+            <div class="shoe">
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d36f22a2-263d-4a1c-bf61-8fe11abf9da3/zoomx-invincible-run-flyknit-road-running-shoes-7R5G8W.jpg" alt="Nike ZoomX">
+                <h3>ZoomX Invincible</h3>
+                <p>Engineered for comfort and support with responsive ZoomX foam.</p>
             </div>
         </div>
     </section>
 
-    <section id="womens-shoes">
-        <div class="container">
-            <h2>Women's Nike Shoes</h2>
-            <div class="shoe-category">
-                <div class="shoe-item">
-                    <h3>Air Force 1</h3>
-                    <p>The classic Air Force 1, first released in 1982, remains a staple in women's sneaker fashion.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="shoe-item">
-                    <h3>Nike Free RN</h3>
-                    <p>The Nike Free RN offers flexibility and lightweight comfort for women on the go.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div class="shoe-item">
-                    <h3>Roshe One</h3>
-                    <p>A minimalist design that provides the ultimate in comfort and casual style.</p>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
-        </div>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>© 2026 Nike, Inc. All Rights Reserved.</p>
-            <p><a href="https://www.nike.com" target="_blank">Visit Nike Official Website</a></p>
-        </div>
+        <p>&copy; 2026 Nike, Inc. All Rights Reserved.</p>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
-/* Resetting some default styles */
-* {
+style.css
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* General Body Style */
-body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
 }
 
-/* Header Style */
+body {
+    background-color: white;
+    color: #333;
+}
+
 header {
     background-color: #111;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
 
-.navbar h1 {
-    font-size: 2rem;
-    font-weight: bold;
+nav .logo img {
+    width: 80px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin-left: 20px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-size: 1rem;
-    transition: color 0.3s;
+    color: white;
+    font-weight: bold;
 }
 
-nav ul li a:hover {
-    color: #ff6600;
+section {
+    padding: 60px 20px;
 }
 
-/* Section Container */
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px 0;
-}
-
-/* History Section */
-#history {
-    background-color: #fff;
-    padding: 40px 0;
-    text-align: center;
-}
-
-#history h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-#history p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-}
-
-/* Shoe Section Styles */
-.shoe-category {
+#hero {
+    background: url('https://images.unsplash.com/photo-1614574525507-dfcf9a8de5ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjA0NHwwfDF8c2VhY2h8Nnx8bm94JTIwYXBwbGUlMjBmb3JtJTIwZXNjYXBlfGVufDB8fHx8fDE2NDc2MDY0NDA&ixlib=rb-1.2.1&q=80&w=1920') no-repeat center center/cover;
+    color: white;
+    height: 300px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.shoe-item {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.shoe-item h3 {
-    font-size: 1.5rem;
+.hero-content h1 {
+    font-size: 3rem;
     margin-bottom: 10px;
 }
 
-.shoe-item p {
-    font-size: 1rem;
-    margin-bottom: 20px;
+.hero-content p {
+    font-size: 1.2rem;
 }
 
-.shoe-item a {
-    display: inline-block;
-    color: #111;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: #ff6600;
-    color: white;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.shoe-item a:hover {
-    background-color: #e55b00;
-}
-
-/* Footer Style */
-footer {
-    background-color: #111;
-    color: white;
-    padding: 20px 0;
+.section {
     text-align: center;
 }
 
-footer p {
-    font-size: 1rem;
+.shoe-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
 }
 
-footer a {
-    color: #ff6600;
-    text-decoration: none;
-    font-weight: bold;
+.shoe {
+    max-width: 300px;
+    text-align: center;
 }
 
-footer a:hover {
-    color: #e55b00;
+.shoe img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
+
+.shoe h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+app.js
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert("Your message has been sent!");
+});
